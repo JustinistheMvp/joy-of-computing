@@ -1,0 +1,208 @@
+p {
+  color: gray;
+}
+a {
+  color: gray;
+}
+  .navbar {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding: 25px;
+ background-color:lavender;
+ color: gray;
+}
+.nav-links a {
+ color: gray;
+}
+/* LOGO */
+.logo {
+ font-size: 32px;
+}
+/* NAVBAR MENU */
+.menu {
+ display: flex;
+ gap: 1em;
+ font-size: 30px;
+}
+.menu li:hover {
+ background-color: white;
+ border-radius: 5px;
+ transition: 0.3s ease;
+}
+.menu li {
+ padding: 5px 14px;
+ color:gray;
+}
+/* DROPDOWN MENU */
+.services {
+ position: relative;
+}
+.dropdown {
+ background-color: gray;
+ padding: 1em 0;
+ position: absolute; /*WITH RESPECT TO PARENT*/
+ display: none;
+ border-radius: 8px;
+ top: 35px;
+}
+.dropdown li + li {
+ margin-top: 10px;
+}
+.dropdown li {
+ padding: 0.5em 1em;
+ width: 8em;
+ text-align: center;
+}
+.dropdown li:hover {
+ background-color: gray;
+}
+.services:hover .dropdown {
+ display: block;
+}
+</style>
+
+ 
+  </head>
+
+<body style="background-color:lavender">
+ <nav class="navbar">
+ <!-- LOGO -->
+ <div class="logo"><img src="https://trulyexperiences.com/blog/wp-content/uploads/2021/01/purple-Wisteria-scaled-e1610348666568.jpeg" width="100" height="100"></div>
+ <!-- NAVIGATION MENU -->
+ <ul class="nav-links">
+ <!-- USING CHECKBOX HACK -->
+
+ 
+ <!-- NAVIGATION MENUS -->
+ <div class="menu">
+ <li><a href="file:///C:/Users/25justindo/Documents/JD/<!DOCTYPE html>
+<html>
+<head>
+<title>Academics</title>
+
+<link rel="stylesheet" href="style.css"
+
+<body style="background-color:lavender">
+
+<head>
+<title>PageTitle</title>
+</head>
+<body>
+  <br>
+
+    <br>
+    <p class="writing" align = "left"> <!DOCTYPE html>
+<html>
+<head>
+<title>Academics</title>
+<header>Academics</header>
+<link rel="stylesheet" href="style.css"
+
+<body style="background-color:lavender">
+
+<head>
+<title>PageTitle</title>
+</head>
+<body>
+  <br>
+    <img  class="images" src="book.jpg" width = 300 height = 225px>
+    <br/>
+    <br>
+    <p class="writing" lign = "left">My biggest moments before highschool were probably all of the birthdays that I had before I turned 15. Because those were all very fun, and incredibly memorable, I hope that my sixteenth birthday is just as fun.
+
+</p>
+    <br/>
+<br>
+    <img  class="images" src="https://www.krqe.com/wp-content/uploads/sites/12/2021/11/volleyball.jpeg"  width = 300 height = 225px>
+    <p class="writing" align="left"> Some 9th grade accomplishments are Making the Jv Boys Volleyball team,making alot of new friends since I moved here before the school year started .
+</p>
+</br>
+<br>
+    <img  class="images" src="https://www.fluentin3months.com/wp-content/uploads/2021/09/conversational-spanish-1.jpg"  width = 300 height = 225px>
+    <p class="writing" lign = "left">   I am currently taking spanish one  and I would like to continue to take spanish for some more years at PHS. I would also like to get smarter at math and better grammar in my ELA classes.
+
+.</p>
+    <br/>
+</body>
+</html>
+">School Life</a></li>
+ <li><a href=>Out of School</a></li>
+ <li><a href="file:///C:/Users/25justindo/Documents/JD/<!DOCTYPE html>
+<html>
+<head>
+<title>Academics</title>
+<header>Academics</header>
+<link rel="stylesheet" href="style.css"
+
+<body style="background-color:lavender">
+
+<head>
+<title>PageTitle</title>
+</head>
+<body>
+  <br>
+    <img  class="images" src="IMG_5842.jpg" width = 300 height = 225px>
+    <br/>
+    <br>
+    <p class="writing" lign = "left"> <!DOCTYPE html>
+<html>
+<head>
+<title>Academics</title>
+<header>Academics</header>
+<link rel="stylesheet" href="style.css"
+
+<body style="background-color:lavender">
+
+<head>
+<title>PageTitle</title>
+</head>
+<body>
+  <br>
+    <img  class="images" src="https://m.media-amazon.com/images/I/61SENEgs6aL._AC_SL1000_.jpg" width = 300 height = 225px>
+    <br/>
+    <br>
+    <p class="writing" lign = "left">My biggest moments before highschool were probably all of the birthdays that I had before I turned 15. Because those were all very fun, and incredibly memorable, I hope that my sixteenth birthday is just as fun.
+
+</p>
+    <br/>
+<br>
+    <img  class="images" src="https://www.krqe.com/wp-content/uploads/sites/12/2021/11/volleyball.jpeg"  width = 300 height = 225px>
+    <p class="writing" align="left"> Some 9th grade accomplishments are Making the Jv Boys Volleyball team,making alot of new friends since I moved here before the school year started .
+</p>
+</br>
+<br>
+    <img  class="images" src="https://www.fluentin3months.com/wp-content/uploads/2021/09/conversational-spanish-1.jpg"  width = 300 height = 225px>
+    <p class="writing" lign = "left">   I am currently taking spanish one  and I would like to continue to take spanish for some more years at PHS. I would also like to get smarter at math and better grammar in my ELA classes.
+
+.</p>
+    <br/>
+</body>
+</html>">About</a></li>
+ <!-- DROPDOWN MENU -->
+ <ul class="dropdown">
+ <li><a href="/">Dropdown 1 </a></li>
+ <li><a href="/">Dropdown 2</a></li>
+ <li><a href="/">Dropdown 2</a></li>
+ <li><a href="/">Dropdown 3</a></li>
+ <li><a href="/">Dropdown 4</a></li>
+ </ul>
+ </li>
+ 
+ <li><a href="/">Contact</a></li>
+ </div>
+ </ul>
+ </nav>
+</body>
+<head>
+<title>PageTitle</title>
+</head>
+<div class="container">
+  <img src="IMG_6357.jpg" class="image">
+  <div class="overlay">
+    <div class="text">Justin Dowdell</div>
+  </div>
+</div>
+
+</body>
+</html>
